@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: your-docker-repo/flask-app:latest
+          image: docker.io/4bedfd55540a3bbdc2a29463b80d081eef26885e9bc3b6647ecb8e9fa057d55a/flask-app:latest
           ports:
             - containerPort: 5000
 
